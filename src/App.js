@@ -1,23 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import { Notation } from "react-abc";
 
 function App() {
+  const notation = 'CDEF GABc|';
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          TODO
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Notation notation={notation} />
     </div>
   );
 }
