@@ -31,5 +31,9 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "electron": "^20.2.0"
   }
 }
