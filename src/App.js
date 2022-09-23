@@ -1,7 +1,12 @@
 import { Notation } from "react-abc";
 
+const notation = `
+X: 1
+L: 1
+abcdefgABCDEFG |
+`;
+
 function App() {
-  const notation = 'CDEF GABc|';
   return (
     <div className="App">
       <Notation notation={notation} />
